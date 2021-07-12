@@ -1,6 +1,23 @@
 # Prerequisites
 *.d
 
+build/
+data/
+data/perry-anderson.freeformjs.imploded.zip  
+data/perry-anderson.webflow.imploded.zip   
+data/perry-anderson.webflow.upgrades.zip  
+data/src.imploded.zip   
+data/src.upgrades.zip
+data/perry-anderson.freeformjs.zip           
+data/perry-anderson.webflow.implosion.zip  
+data/perry-anderson.webflow.zip           
+data/src.implosion.zip  
+data/src.zip
+
+#data/homesite/perry-anderson.webflow.implosion.zip
+#data/homesite/src.implosion.zip
+#data/homesite/src.upgrades.zip
+
 # Compiled Object files
 *.slo
 *.lo
