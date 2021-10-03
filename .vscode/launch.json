@@ -33,6 +33,29 @@
             "miDebuggerPath": "/usr/bin/gdb"
         },
         {
+            "name": "imploder",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/implode",
+            "args": [
+                "[FreeFormJSX]"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build C++ project",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
             "name": "helloworld",
             "type": "cppdbg",
             "request": "launch",
